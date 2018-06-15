@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace MvvmApp.Core
 {
+    [Preserve(AllMembers = true)]
     public class BookService : IBookService
     {
         private const string Url = "http://xam150.azurewebsites.net/api/books/";

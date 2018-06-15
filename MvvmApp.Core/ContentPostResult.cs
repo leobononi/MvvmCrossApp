@@ -1,5 +1,6 @@
 ﻿namespace MvvmApp.Core
 {
+    [Preserve(AllMembers = true)]
     public class ContentPostResult<T>
     {
         public T content { get; set; }

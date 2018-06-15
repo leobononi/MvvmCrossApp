@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace MvvmApp.Core
 {
+    [Preserve(AllMembers = true)]
     public class Book
     {
         public string ISBN { get; set; }

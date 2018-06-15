@@ -5,6 +5,7 @@ using MvvmCross.Platform.IoC;
 
 namespace MvvmApp.Core
 {
+    [Preserve(AllMembers = true)]
     public class App : MvxApplication
     {
         public override void Initialize()

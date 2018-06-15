@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace MvvmApp.Core.ViewModels
 {
+    [Preserve(AllMembers = true)]
     public class BookDetailsViewModel : MvxViewModel
     {
 

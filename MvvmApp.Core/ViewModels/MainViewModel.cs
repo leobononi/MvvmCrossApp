@@ -3,12 +3,11 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MvvmApp.Core.ViewModels
 {
+    [Preserve(AllMembers = true)]
     public class MainViewModel : MvxViewModel
     {
 

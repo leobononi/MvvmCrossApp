@@ -3,12 +3,11 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
 
 namespace MvvmApp.Core.ViewModels
 {
+    [Preserve(AllMembers = true)]
     public class BookListViewModel : MvxViewModel
     {
         private readonly IBookService _bookManager;

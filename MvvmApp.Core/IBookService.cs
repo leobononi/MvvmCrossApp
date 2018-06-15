@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 
 namespace MvvmApp.Core
 {
+    [Preserve(AllMembers = true)]
     public interface IBookService
     {
         Task<IEnumerable<Book>> GetAll();

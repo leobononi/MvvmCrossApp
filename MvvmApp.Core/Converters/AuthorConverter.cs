@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 
 namespace MvvmApp.Core.Converters
 {
+    [Preserve(AllMembers = true)]
     public class AuthorConverter : MvxValueConverter<List<string>, string>
     {
         protected override string Convert(List<string> value, Type targetType, object parameter, CultureInfo culture) =>
