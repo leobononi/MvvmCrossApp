@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/bookTitle"
+        android:hint="Title"
+        local:MvxBind="Text Title" />
+  
+  <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/bookGenre"
+        android:hint="Genre"
+        local:MvxBind="Text Genre" />
+  
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/bookAuthor"
+        android:hint="Author"
+        local:MvxBind="Text Author" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:textSize="40dp"
+        local:MvxBind="Click SaveBookCommand" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar"
+        android:textSize="40dp"
+        local:MvxBind="Click ListBookCommand" />
+</LinearLayout>
